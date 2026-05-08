@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f6f8;
+  --foreground: #0b1628;
+  --navy: #071426;
+  --slate: #314155;
+  --muted: #657386;
+  --line: rgba(11, 22, 40, 0.1);
+  --panel: #f8fafc;
+  --gold: #b8913b;
+  --gold-soft: #e7cf94;
+  --danger: #b42318;
+  --warning: #b66a00;
+  --success: #13795b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Consolas", "SFMono-Regular", "Roboto Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+input[type="range"] {
+  height: 0.35rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--navy), var(--gold));
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 0.35rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--navy), var(--gold));
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  margin-top: -0.325rem;
+  border: 2px solid var(--navy);
+  border-radius: 999px;
+  background: var(--gold);
+  box-shadow: 0 2px 8px rgba(7, 20, 38, 0.22);
+}
+
+input[type="range"]::-moz-range-track {
+  height: 0.35rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--navy), var(--gold));
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--navy);
+  border-radius: 999px;
+  background: var(--gold);
+  box-shadow: 0 2px 8px rgba(7, 20, 38, 0.22);
+}
+
+::selection {
+  background: rgba(201, 151, 47, 0.28);
+}

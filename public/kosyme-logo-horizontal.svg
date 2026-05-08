@@ -1,0 +1,8 @@
+<svg width="306" height="72" viewBox="0 0 306 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">KOSYME Financial Services LLC</title>
+  <desc id="desc">Horizontal KOSYME logo with circular K emblem and Financial Services LLC text.</desc>
+  <circle cx="35.5" cy="35.5" r="30.5" stroke="#C2A06A" stroke-width="2"/>
+  <path d="M22 49V22H27.2V33.2L38.1 22H44.7L33.2 33.8L45.7 49H39L29.6 37.4L27.2 39.9V49H22Z" fill="#071326"/>
+  <text x="72" y="43" fill="#071326" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="31" font-weight="600" letter-spacing="4.2">OSYME</text>
+  <text x="73" y="59" fill="#927543" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" letter-spacing="2.1">FINANCIAL SERVICES LLC</text>
+</svg>
